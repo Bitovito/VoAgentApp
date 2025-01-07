@@ -1,0 +1,6 @@
+[submodule "mem-back"]
+	path = mem-back
+	url = git@github.com:Bitovito/mem-back.git
+[submodule "mem-front"]
+	path = mem-front
+	url = git@github.com:Bitovito/mem-front.git
