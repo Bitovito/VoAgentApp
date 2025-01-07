@@ -1,0 +1,18 @@
+services:
+  backend:
+    image: mem-back
+    build: ./mem-back
+    ports:
+      - "8000:8000"
+    networks:
+      - vo_agent_network
+
+  frontend:
+    image: mem-front
+    build: ./mem-front/mem-front
+    ports:
+      - "5173:80"
+    networks:
+      - vo_agent_network
+networks:
+  vo_agent_network:
