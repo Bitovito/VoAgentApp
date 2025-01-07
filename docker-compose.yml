@@ -2,6 +2,8 @@ services:
   backend:
     image: mem-back
     build: ./mem-back
+    env_file:
+      - ./mem-back/.env
     ports:
       - "8000:8000"
     networks:
