@@ -4,6 +4,7 @@ Para ejecutar los servicios necesita:
 - [Docker desktop](https://docs.docker.com/desktop/)
 - [Git](https://git-scm.com/downloads)
 - Descargar este repositorio con el comando `git clone --recurse-submodules https://github.com/Bitovito/VoAgentApp.git`
+- Colocar un archivo `.env` dentro de la carpeta `mem-back`. Este archivo será proporcionado por mí
 
 Para levantar los contenedores:
 - Ejecutar docker desktop
